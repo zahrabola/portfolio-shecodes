@@ -4,7 +4,7 @@ font-family: 'Playfair Display', serif;*/
 h1 {
   font-family: "Playfair Display", serif;
   font-weight: bold;
-  font-size: 96px;
+  font-size: 44px;
 }
 .hero p {
   font-family: "Fruktur", cursive;
@@ -35,3 +35,34 @@ h1 {
   font-family: "Fruktur", cursive;
   line-height: 27px;
 }
+.row {
+  display: flex;
+}
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+img {
+  vertical-align: middle;
+}
+.d-none {
+  display: none;
+}
+
+@media (max-width: 900px) {
+  .hero {
+    padding: 80px 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    width: 100%;
+    padding-right: var(--bs-gutter-x, 0.75rem);
+    padding-left: var(--bs-gutter-x, 0.75rem);
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
