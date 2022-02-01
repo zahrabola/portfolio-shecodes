@@ -1,15 +1,27 @@
+
 /*font-family: 'Fruktur', cursive;
 font-family: 'Playfair Display', serif;*/
 
 h1 {
   font-family: "Playfair Display", serif;
   font-weight: bold;
+  font-size: 96px;
 }
-p {
+.hero p {
   font-family: "Fruktur", cursive;
   font-weight: lighter;
+  font-size: 20px;
 }
 :root {
   --branding-color: #6c63ff;
   --secondary-color: #f9f7fe;
+}
+.hero {
+  text-align: center;
+}
+.hero h2 {
+  font-family: "Playfair Display", serif;
+  font-weight: lighter;
+  font-size: 26px;
+  line-height: 2;
 }
