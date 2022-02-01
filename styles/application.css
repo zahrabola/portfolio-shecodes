@@ -18,10 +18,11 @@ h1 {
 .hero {
   text-align: center;
   background-color: var(--secondary-color);
+  padding: 160px 20px;
 }
 .hero h2 {
   font-family: "Playfair Display", serif;
-  font-weight: lighter;
+  font-weight: normal;
   font-size: 26px;
   line-height: 2;
 }
@@ -29,8 +30,8 @@ h1 {
   background-color: var(--branding-color);
   padding: 20px;
   border-radius: 5px;
-  font-size: 14px;
+  font-size: 18px;
   color: #f9f7fe;
   font-family: "Fruktur", cursive;
-  line-height: 20px;
+  line-height: 27px;
 }
