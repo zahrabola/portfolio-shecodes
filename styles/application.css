@@ -9,3 +9,7 @@ p {
   font-family: "Fruktur", cursive;
   font-weight: lighter;
 }
+:root {
+  --branding-color: #6c63ff;
+  --secondary-color: #f9f7fe;
+}
